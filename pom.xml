@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.trollyloki</groupId>
+	<artifactId>hypixel-api-wrapper</artifactId>
+	<version>0.1</version>
+	<name>Hypixel API Wrapper</name>
+
+	<properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>Hypixel</id>
+			<url>https://repo.hypixel.net/repository/Hypixel/</url>
+		</repository>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>net.hypixel</groupId>
+			<artifactId>HypixelAPI</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.Querz</groupId>
+			<artifactId>NBT</artifactId>
+			<version>5.5</version>
+		</dependency>
+	</dependencies>
+</project>
